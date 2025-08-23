@@ -7,15 +7,16 @@ import atexit
 from queue import Queue
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-LOG_DIR = os.path.join(BASE_DIR, 'logs')
+LOG_DIR = os.path.join(BASE_DIR, "logs")
 os.makedirs(LOG_DIR, exist_ok=True)
 
-LOG_FILE = os.path.join(LOG_DIR, 'app.log')
+LOG_FILE = os.path.join(LOG_DIR, "app.log")
 
 ROOT_LOG_LEVEL = logging.WARNING
 PROJECT_LOGGER_NAME = "app"
 
 DATE_FMT = "%Y-%m-%d %H:%M:%S"
+
 
 def _rel(path: str) -> str:
     """Return *repo-relative* path or just the basename if outside repo."""
@@ -37,6 +38,7 @@ def _record_factory(*a, **kw):  # type: ignore[override]
 
 logging.setLogRecordFactory(_record_factory)
 
+
 class PathAwareFormatter(logging.Formatter):
     def __init__(self, fmt_src: str, fmt_no_src: str, **kw):
         super().__init__(fmt_src, **kw)
@@ -50,6 +52,7 @@ class PathAwareFormatter(logging.Formatter):
             return super().format(record)
         finally:
             self._style._fmt = orig
+
 
 # Templates
 FILE_FMT_SRC = "%(asctime)s | %(levelname)-8s | %(relativepath)s:%(lineno)d | %(message)s"

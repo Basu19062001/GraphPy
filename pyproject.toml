@@ -1,0 +1,23 @@
+[project]
+version = "v1.0.2"
+
+[tool.black]
+line-length = 127
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | env
+  | venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+
+[tool.bandit]
+exclude_dirs = ["*/env/*"]
