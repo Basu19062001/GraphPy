@@ -83,7 +83,7 @@ async def get_swagger_documentation(username: str = Depends(get_current_username
         title=f"{settings.PROJECT_NAME} - API Documentation",
     )
 
-@app.get("/api/health", summary="Health Check", tags="System")
+@app.get("/api/health", summary="Health Check", tags=["System"])
 async def health_check():
     logger.info("Health check endpoint called")
     return JSONResponse(
