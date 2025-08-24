@@ -25,10 +25,10 @@ class Settings(BaseSettings):
 
     API_V1_STR: str = config("API_V1_STR", cast=str, default="/api/v1")
 
-    
     # API Documentation Auth
     DOC_ROOT_USERNAME: str = config("DOC_ROOT_USERNAME", cast=str)
     DOC_ROOT_PASSWORD: str = config("DOC_ROOT_PASSWORD", cast=str)
+
 
 @lru_cache()
 def get_settings() -> Settings:
