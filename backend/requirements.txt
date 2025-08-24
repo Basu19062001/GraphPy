@@ -3,11 +3,17 @@ anyio==4.10.0
 black==25.1.0
 boto3==1.40.11
 botocore==1.40.11
+certifi==2025.8.3
 click==8.2.1
 fastapi==0.116.1
 h11==0.16.0
+httpcore==1.0.9
+httpx==0.28.1
 idna==3.10
+itsdangerous==2.2.0
+Jinja2==3.1.6
 jmespath==1.0.1
+MarkupSafe==3.0.2
 mypy_extensions==1.1.0
 packaging==25.0
 pathspec==0.12.1
@@ -17,6 +23,8 @@ pydantic-settings==2.10.1
 pydantic_core==2.33.2
 python-dateutil==2.9.0.post0
 python-dotenv==1.1.1
+python-multipart==0.0.20
+PyYAML==6.0.2
 s3transfer==0.13.1
 setuptools==78.1.1
 six==1.17.0
