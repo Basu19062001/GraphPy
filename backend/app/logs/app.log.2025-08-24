@@ -1,0 +1,212 @@
+2025-08-24 14:32:26 | INFO     | Started server process [3252]
+2025-08-24 14:32:26 | INFO     | Waiting for application startup.
+2025-08-24 14:32:26 | INFO     | Application startup complete.
+2025-08-24 14:34:51 | INFO     | Shutting down
+2025-08-24 14:34:52 | INFO     | Started server process [3874]
+2025-08-24 14:34:52 | INFO     | Waiting for application startup.
+2025-08-24 14:34:52 | INFO     | Application startup complete.
+2025-08-24 14:34:58 | INFO     | Shutting down
+2025-08-24 14:34:59 | INFO     | Started server process [3932]
+2025-08-24 14:34:59 | INFO     | Waiting for application startup.
+2025-08-24 14:34:59 | INFO     | Application startup complete.
+2025-08-24 14:35:02 | INFO     | Shutting down
+2025-08-24 14:35:03 | INFO     | Started server process [3954]
+2025-08-24 14:35:03 | INFO     | Waiting for application startup.
+2025-08-24 14:35:03 | INFO     | Application startup complete.
+2025-08-24 14:35:05 | INFO     | Shutting down
+2025-08-24 14:35:06 | INFO     | Started server process [3989]
+2025-08-24 14:35:06 | INFO     | Waiting for application startup.
+2025-08-24 14:35:06 | INFO     | Application startup complete.
+2025-08-24 14:35:06 | INFO     | Shutting down
+2025-08-24 14:35:07 | INFO     | Started server process [4009]
+2025-08-24 14:35:07 | INFO     | Waiting for application startup.
+2025-08-24 14:35:07 | INFO     | Application startup complete.
+2025-08-24 14:35:08 | INFO     | Shutting down
+2025-08-24 14:35:09 | INFO     | Started server process [4025]
+2025-08-24 14:35:09 | INFO     | Waiting for application startup.
+2025-08-24 14:35:09 | INFO     | Application startup complete.
+2025-08-24 14:35:19 | INFO     | Shutting down
+2025-08-24 14:35:20 | INFO     | Started server process [4078]
+2025-08-24 14:35:20 | INFO     | Waiting for application startup.
+2025-08-24 14:35:20 | INFO     | Application startup complete.
+2025-08-24 14:35:23 | INFO     | Shutting down
+2025-08-24 14:35:24 | INFO     | Started server process [4113]
+2025-08-24 14:35:24 | INFO     | Waiting for application startup.
+2025-08-24 14:35:24 | INFO     | Application startup complete.
+2025-08-24 14:35:30 | INFO     | Shutting down
+2025-08-24 14:35:30 | INFO     | Waiting for application shutdown.
+2025-08-24 14:35:31 | INFO     | Started server process [4167]
+2025-08-24 14:35:31 | INFO     | Waiting for application startup.
+2025-08-24 14:35:31 | INFO     | Application startup complete.
+2025-08-24 14:35:32 | INFO     | Shutting down
+2025-08-24 14:35:32 | INFO     | Waiting for application shutdown.
+2025-08-24 14:35:33 | INFO     | Started server process [4183]
+2025-08-24 14:35:33 | INFO     | Waiting for application startup.
+2025-08-24 14:35:33 | INFO     | Application startup complete.
+2025-08-24 14:35:37 | INFO     | Shutting down
+2025-08-24 14:35:37 | INFO     | Waiting for application shutdown.
+2025-08-24 14:35:38 | INFO     | Started server process [4218]
+2025-08-24 14:35:38 | INFO     | Waiting for application startup.
+2025-08-24 14:35:38 | INFO     | Application startup complete.
+2025-08-24 14:37:42 | INFO     | Shutting down
+2025-08-24 14:37:42 | INFO     | Waiting for application shutdown.
+2025-08-24 14:37:43 | INFO     | Started server process [4783]
+2025-08-24 14:37:43 | INFO     | Waiting for application startup.
+2025-08-24 14:37:43 | INFO     | Application startup complete.
+2025-08-24 15:04:00 | INFO     | Shutting down
+2025-08-24 15:04:00 | INFO     | Waiting for application shutdown.
+2025-08-24 15:04:00 | INFO     | Application shutdown complete.
+2025-08-24 15:04:00 | INFO     | Finished server process [4783]
+2025-08-24 15:04:06 | INFO     | Started server process [10046]
+2025-08-24 15:04:06 | INFO     | Waiting for application startup.
+2025-08-24 15:04:06 | INFO     | Application startup complete.
+2025-08-24 15:04:39 | INFO     | Shutting down
+2025-08-24 15:04:54 | INFO     | Started server process [10308]
+2025-08-24 15:04:54 | INFO     | Waiting for application startup.
+2025-08-24 15:04:54 | INFO     | Application startup complete.
+2025-08-24 15:04:56 | INFO     | Shutting down
+2025-08-24 15:04:57 | INFO     | Waiting for application shutdown.
+2025-08-24 15:04:58 | INFO     | Started server process [10343]
+2025-08-24 15:04:58 | INFO     | Waiting for application startup.
+2025-08-24 15:04:58 | INFO     | Application startup complete.
+2025-08-24 15:05:00 | INFO     | Shutting down
+2025-08-24 15:05:13 | INFO     | Started server process [10451]
+2025-08-24 15:05:13 | INFO     | Waiting for application startup.
+2025-08-24 15:05:13 | INFO     | Application startup complete.
+2025-08-24 15:05:16 | INFO     | Shutting down
+2025-08-24 15:05:16 | INFO     | Waiting for application shutdown.
+2025-08-24 15:05:17 | INFO     | Started server process [10486]
+2025-08-24 15:05:17 | INFO     | Waiting for application startup.
+2025-08-24 15:05:17 | INFO     | Application startup complete.
+2025-08-24 15:05:17 | INFO     | Shutting down
+2025-08-24 15:05:18 | INFO     | Started server process [10494]
+2025-08-24 15:05:18 | INFO     | Waiting for application startup.
+2025-08-24 15:05:18 | INFO     | Application startup complete.
+2025-08-24 15:05:20 | INFO     | Shutting down
+2025-08-24 15:05:20 | INFO     | Waiting for application shutdown.
+2025-08-24 15:05:21 | INFO     | Started server process [10523]
+2025-08-24 15:05:21 | INFO     | Waiting for application startup.
+2025-08-24 15:05:21 | INFO     | Application startup complete.
+2025-08-24 15:05:30 | INFO     | Shutting down
+2025-08-24 15:05:34 | INFO     | Started server process [10600]
+2025-08-24 15:05:34 | INFO     | Waiting for application startup.
+2025-08-24 15:05:34 | INFO     | Application startup complete.
+2025-08-24 15:05:36 | INFO     | Shutting down
+2025-08-24 15:05:37 | INFO     | Started server process [10626]
+2025-08-24 15:05:37 | INFO     | Waiting for application startup.
+2025-08-24 15:05:37 | INFO     | Application startup complete.
+2025-08-24 15:05:54 | INFO     | Shutting down
+2025-08-24 15:06:02 | INFO     | Started server process [10782]
+2025-08-24 15:06:02 | INFO     | Waiting for application startup.
+2025-08-24 15:06:02 | INFO     | Application startup complete.
+2025-08-24 15:06:07 | INFO     | Shutting down
+2025-08-24 15:06:14 | INFO     | Started server process [10856]
+2025-08-24 15:06:14 | INFO     | Waiting for application startup.
+2025-08-24 15:06:14 | INFO     | Application startup complete.
+2025-08-24 15:06:15 | INFO     | Shutting down
+2025-08-24 15:06:16 | INFO     | Started server process [10885]
+2025-08-24 15:06:16 | INFO     | Waiting for application startup.
+2025-08-24 15:06:16 | INFO     | Application startup complete.
+2025-08-24 15:06:40 | INFO     | Shutting down
+2025-08-24 15:06:41 | INFO     | Started server process [11017]
+2025-08-24 15:06:41 | INFO     | Waiting for application startup.
+2025-08-24 15:06:41 | INFO     | Application startup complete.
+2025-08-24 15:06:47 | INFO     | Shutting down
+2025-08-24 15:06:48 | INFO     | Started server process [11098]
+2025-08-24 15:06:48 | INFO     | Waiting for application startup.
+2025-08-24 15:06:48 | INFO     | Application startup complete.
+2025-08-24 15:06:49 | INFO     | Shutting down
+2025-08-24 15:06:54 | INFO     | Started server process [11134]
+2025-08-24 15:06:54 | INFO     | Waiting for application startup.
+2025-08-24 15:06:54 | INFO     | Application startup complete.
+2025-08-24 15:06:56 | INFO     | Shutting down
+2025-08-24 15:06:57 | INFO     | Started server process [11160]
+2025-08-24 15:06:57 | INFO     | Waiting for application startup.
+2025-08-24 15:06:57 | INFO     | Application startup complete.
+2025-08-24 15:06:58 | INFO     | Shutting down
+2025-08-24 15:06:58 | INFO     | Waiting for application shutdown.
+2025-08-24 15:07:03 | INFO     | Started server process [11195]
+2025-08-24 15:07:03 | INFO     | Waiting for application startup.
+2025-08-24 15:07:03 | INFO     | Application startup complete.
+2025-08-24 15:07:07 | INFO     | Shutting down
+2025-08-24 15:07:08 | INFO     | Started server process [11262]
+2025-08-24 15:07:08 | INFO     | Waiting for application startup.
+2025-08-24 15:07:08 | INFO     | Application startup complete.
+2025-08-24 15:07:28 | INFO     | Shutting down
+2025-08-24 15:07:28 | INFO     | Waiting for application shutdown.
+2025-08-24 15:07:31 | INFO     | Started server process [11382]
+2025-08-24 15:07:31 | INFO     | Waiting for application startup.
+2025-08-24 15:07:31 | INFO     | Application startup complete.
+2025-08-24 15:07:33 | INFO     | Shutting down
+2025-08-24 15:07:36 | INFO     | Started server process [11419]
+2025-08-24 15:07:36 | INFO     | Waiting for application startup.
+2025-08-24 15:07:36 | INFO     | Application startup complete.
+2025-08-24 15:07:38 | INFO     | Shutting down
+2025-08-24 15:07:39 | INFO     | Started server process [11427]
+2025-08-24 15:07:39 | INFO     | Waiting for application startup.
+2025-08-24 15:07:39 | INFO     | Application startup complete.
+2025-08-24 15:07:53 | INFO     | Shutting down
+2025-08-24 15:07:53 | INFO     | Waiting for application shutdown.
+2025-08-24 15:07:54 | INFO     | Started server process [11513]
+2025-08-24 15:07:54 | INFO     | Waiting for application startup.
+2025-08-24 15:07:54 | INFO     | Application startup complete.
+2025-08-24 15:08:52 | INFO     | Shutting down
+2025-08-24 15:36:34 | INFO     | Started server process [18879]
+2025-08-24 15:36:34 | INFO     | Waiting for application startup.
+2025-08-24 15:36:34 | INFO     | Application startup complete.
+2025-08-24 15:38:25 | INFO     | Shutting down
+2025-08-24 15:38:26 | INFO     | Started server process [19549]
+2025-08-24 15:38:26 | INFO     | Waiting for application startup.
+2025-08-24 15:38:26 | INFO     | Application startup complete.
+2025-08-24 15:39:09 | INFO     | 127.0.0.1 - "GET /docs" 404 Not Found 0.58 ms
+2025-08-24 15:39:09 | INFO     | 127.0.0.1:55476 - "GET /docs HTTP/1.1" 404
+2025-08-24 15:39:10 | INFO     | 127.0.0.1 - "GET /favicon.ico" 404 Not Found 0.36 ms
+2025-08-24 15:39:10 | INFO     | 127.0.0.1:55476 - "GET /favicon.ico HTTP/1.1" 404
+2025-08-24 15:41:12 | INFO     | Shutting down
+2025-08-24 15:41:13 | INFO     | Started server process [20137]
+2025-08-24 15:41:13 | INFO     | Waiting for application startup.
+2025-08-24 15:41:13 | INFO     | Application startup complete.
+2025-08-24 15:41:15 | INFO     | Shutting down
+2025-08-24 15:41:16 | INFO     | Started server process [20166]
+2025-08-24 15:41:16 | INFO     | Waiting for application startup.
+2025-08-24 15:41:16 | INFO     | Application startup complete.
+2025-08-24 15:41:32 | INFO     | 127.0.0.1 - "GET /docs" 401 Unauthorized 1.26 ms
+2025-08-24 15:41:32 | INFO     | 127.0.0.1:40302 - "GET /docs HTTP/1.1" 401
+2025-08-24 15:41:36 | INFO     | 127.0.0.1 - "GET /docs" 200 OK 2.91 ms
+2025-08-24 15:41:36 | INFO     | 127.0.0.1:40312 - "GET /docs HTTP/1.1" 200
+2025-08-24 15:41:38 | INFO     | 127.0.0.1 - "GET /openapi.json" 200 OK 4.32 ms
+2025-08-24 15:41:38 | INFO     | 127.0.0.1:40312 - "GET /openapi.json HTTP/1.1" 200
+2025-08-24 15:41:52 | INFO     | Shutting down
+2025-08-24 15:41:56 | INFO     | Started server process [20399]
+2025-08-24 15:41:56 | INFO     | Waiting for application startup.
+2025-08-24 15:41:56 | INFO     | Application startup complete.
+2025-08-24 15:41:57 | INFO     | Shutting down
+2025-08-24 15:41:59 | INFO     | Started server process [20434]
+2025-08-24 15:41:59 | INFO     | Waiting for application startup.
+2025-08-24 15:41:59 | INFO     | Application startup complete.
+2025-08-24 15:42:25 | INFO     | Shutting down
+2025-08-24 15:42:25 | INFO     | Waiting for application shutdown.
+2025-08-24 15:42:25 | INFO     | Started server process [20586]
+2025-08-24 15:42:25 | INFO     | Waiting for application startup.
+2025-08-24 15:42:25 | INFO     | Application startup complete.
+2025-08-24 15:42:45 | INFO     | 127.0.0.1 - "GET /docs" 200 OK 2.86 ms
+2025-08-24 15:42:45 | INFO     | 127.0.0.1:56784 - "GET /docs HTTP/1.1" 200
+2025-08-24 15:42:45 | INFO     | 127.0.0.1 - "GET /openapi.json" 200 OK 4.61 ms
+2025-08-24 15:42:45 | INFO     | 127.0.0.1:56784 - "GET /openapi.json HTTP/1.1" 200
+2025-08-24 15:43:01 | INFO     | Shutting down
+2025-08-24 15:43:04 | INFO     | Started server process [20818]
+2025-08-24 15:43:04 | INFO     | Waiting for application startup.
+2025-08-24 15:43:04 | INFO     | Application startup complete.
+2025-08-24 15:43:09 | INFO     | 127.0.0.1 - "GET /docs" 200 OK 3.25 ms
+2025-08-24 15:43:09 | INFO     | 127.0.0.1:39944 - "GET /docs HTTP/1.1" 200
+2025-08-24 15:43:09 | INFO     | 127.0.0.1 - "GET /openapi.json" 200 OK 3.36 ms
+2025-08-24 15:43:09 | INFO     | 127.0.0.1:39944 - "GET /openapi.json HTTP/1.1" 200
+2025-08-24 15:56:48 | INFO     | Shutting down
+2025-08-24 15:56:50 | INFO     | Started server process [23011]
+2025-08-24 15:56:50 | INFO     | Waiting for application startup.
+2025-08-24 15:56:50 | INFO     | Application startup complete.
+2025-08-24 15:56:51 | INFO     | Shutting down
+2025-08-24 15:56:51 | INFO     | Waiting for application shutdown.
+2025-08-24 15:56:52 | INFO     | Started server process [23040]
+2025-08-24 15:56:52 | INFO     | Waiting for application startup.
+2025-08-24 15:56:52 | INFO     | Application startup complete.
