@@ -14,7 +14,11 @@ from fastapi.openapi.docs import get_swagger_ui_html
 from app.logger import logger
 from app.core.config import settings
 from app.middleware.log_middleware import log_request_middleware
-from app.common.exception_handler import request_validation_exception_handler, http_exception_handler, unhandled_exception_handler
+from app.common.exception_handler import (
+    request_validation_exception_handler,
+    http_exception_handler,
+    unhandled_exception_handler,
+)
 from app.api.router import api_router
 
 app = FastAPI(
@@ -53,6 +57,7 @@ app.add_exception_handler(Exception, unhandled_exception_handler)
 # Include All Routers
 app.include_router(api_router, prefix=settings.API_V1_STR)
 
+
 def get_current_username(credentials: Annotated[HTTPBasicCredentials, Depends(security)]) -> str:
     correct_username = secrets.compare_digest(credentials.username.encode(), settings.DOC_ROOT_USERNAME.encode())
     correct_password = secrets.compare_digest(credentials.password.encode(), settings.DOC_ROOT_PASSWORD.encode())
@@ -82,6 +87,7 @@ async def get_swagger_documentation(username: str = Depends(get_current_username
         openapi_url="/openapi.json",
         title=f"{settings.PROJECT_NAME} - API Documentation",
     )
+
 
 @app.get("/api/health", summary="Health Check", tags=["System"])
 async def health_check():

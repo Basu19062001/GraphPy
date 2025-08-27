@@ -1,0 +1,902 @@
+2025-08-25 07:04:03 | INFO     | Started server process [2401]
+2025-08-25 07:04:03 | INFO     | Waiting for application startup.
+2025-08-25 07:04:03 | INFO     | Application startup complete.
+2025-08-25 19:45:45 | INFO     | Shutting down
+2025-08-25 19:45:45 | INFO     | Waiting for application shutdown.
+2025-08-25 19:45:49 | INFO     | Started server process [10497]
+2025-08-25 19:45:49 | INFO     | Waiting for application startup.
+2025-08-25 19:45:49 | INFO     | Application startup complete.
+2025-08-25 19:46:04 | INFO     | Shutting down
+2025-08-25 19:46:05 | INFO     | Started server process [10576]
+2025-08-25 19:46:05 | INFO     | Waiting for application startup.
+2025-08-25 19:46:05 | INFO     | Application startup complete.
+2025-08-25 19:46:07 | INFO     | Shutting down
+2025-08-25 19:46:08 | INFO     | Started server process [10611]
+2025-08-25 19:46:08 | INFO     | Waiting for application startup.
+2025-08-25 19:46:08 | INFO     | Application startup complete.
+2025-08-25 19:46:10 | INFO     | Shutting down
+2025-08-25 19:46:11 | INFO     | Started server process [10640]
+2025-08-25 19:46:11 | INFO     | Waiting for application startup.
+2025-08-25 19:46:11 | INFO     | Application startup complete.
+2025-08-25 19:46:12 | INFO     | Shutting down
+2025-08-25 19:46:12 | INFO     | Started server process [10642]
+2025-08-25 19:46:13 | INFO     | Waiting for application startup.
+2025-08-25 19:46:13 | INFO     | Application startup complete.
+2025-08-25 19:46:14 | INFO     | Shutting down
+2025-08-25 19:46:16 | INFO     | Started server process [10673]
+2025-08-25 19:46:16 | INFO     | Waiting for application startup.
+2025-08-25 19:46:16 | INFO     | Application startup complete.
+2025-08-25 19:46:17 | INFO     | Shutting down
+2025-08-25 19:46:18 | INFO     | Started server process [10681]
+2025-08-25 19:46:18 | INFO     | Waiting for application startup.
+2025-08-25 19:46:18 | INFO     | Application startup complete.
+2025-08-25 19:46:20 | INFO     | Shutting down
+2025-08-25 19:46:21 | INFO     | Started server process [10710]
+2025-08-25 19:46:21 | INFO     | Waiting for application startup.
+2025-08-25 19:46:21 | INFO     | Application startup complete.
+2025-08-25 19:46:23 | INFO     | Shutting down
+2025-08-25 19:46:24 | INFO     | Started server process [10730]
+2025-08-25 19:46:24 | INFO     | Waiting for application startup.
+2025-08-25 19:46:24 | INFO     | Application startup complete.
+2025-08-25 19:46:25 | INFO     | Shutting down
+2025-08-25 19:46:26 | INFO     | Waiting for application shutdown.
+2025-08-25 19:46:26 | INFO     | Started server process [10746]
+2025-08-25 19:46:26 | INFO     | Waiting for application startup.
+2025-08-25 19:46:26 | INFO     | Application startup complete.
+2025-08-25 19:46:29 | INFO     | Shutting down
+2025-08-25 19:46:29 | INFO     | Started server process [10775]
+2025-08-25 19:46:29 | INFO     | Waiting for application startup.
+2025-08-25 19:46:29 | INFO     | Application startup complete.
+2025-08-25 19:46:32 | INFO     | Shutting down
+2025-08-25 19:46:33 | INFO     | Started server process [10783]
+2025-08-25 19:46:33 | INFO     | Waiting for application startup.
+2025-08-25 19:46:33 | INFO     | Application startup complete.
+2025-08-25 19:46:35 | INFO     | Shutting down
+2025-08-25 19:46:36 | INFO     | Started server process [10812]
+2025-08-25 19:46:36 | INFO     | Waiting for application startup.
+2025-08-25 19:46:36 | INFO     | Application startup complete.
+2025-08-25 19:46:35 | INFO     | Shutting down
+2025-08-25 19:46:37 | INFO     | Started server process [10839]
+2025-08-25 19:46:37 | INFO     | Waiting for application startup.
+2025-08-25 19:46:37 | INFO     | Application startup complete.
+2025-08-25 19:46:39 | INFO     | Shutting down
+2025-08-25 19:46:40 | INFO     | Started server process [10860]
+2025-08-25 19:46:40 | INFO     | Waiting for application startup.
+2025-08-25 19:46:40 | INFO     | Application startup complete.
+2025-08-25 19:46:47 | INFO     | Shutting down
+2025-08-25 19:46:48 | INFO     | Started server process [10895]
+2025-08-25 19:46:48 | INFO     | Waiting for application startup.
+2025-08-25 19:46:48 | INFO     | Application startup complete.
+2025-08-25 19:46:50 | INFO     | Shutting down
+2025-08-25 19:46:51 | INFO     | Started server process [10924]
+2025-08-25 19:46:51 | INFO     | Waiting for application startup.
+2025-08-25 19:46:51 | INFO     | Application startup complete.
+2025-08-25 19:46:58 | INFO     | Shutting down
+2025-08-25 19:46:58 | INFO     | Waiting for application shutdown.
+2025-08-25 19:46:59 | INFO     | Started server process [10965]
+2025-08-25 19:46:59 | INFO     | Waiting for application startup.
+2025-08-25 19:46:59 | INFO     | Application startup complete.
+2025-08-25 19:47:00 | INFO     | Shutting down
+2025-08-25 19:47:01 | INFO     | Started server process [10994]
+2025-08-25 19:47:01 | INFO     | Waiting for application startup.
+2025-08-25 19:47:01 | INFO     | Application startup complete.
+2025-08-25 19:47:04 | INFO     | Shutting down
+2025-08-25 19:47:04 | INFO     | Waiting for application shutdown.
+2025-08-25 19:47:04 | INFO     | Started server process [11002]
+2025-08-25 19:47:04 | INFO     | Waiting for application startup.
+2025-08-25 19:47:04 | INFO     | Application startup complete.
+2025-08-25 19:47:05 | INFO     | Shutting down
+2025-08-25 19:47:06 | INFO     | Started server process [11016]
+2025-08-25 19:47:06 | INFO     | Waiting for application startup.
+2025-08-25 19:47:06 | INFO     | Application startup complete.
+2025-08-25 19:47:47 | INFO     | Shutting down
+2025-08-25 19:47:48 | INFO     | Started server process [11153]
+2025-08-25 19:47:48 | INFO     | Waiting for application startup.
+2025-08-25 19:47:48 | INFO     | Application startup complete.
+2025-08-25 19:47:52 | INFO     | Shutting down
+2025-08-25 19:47:52 | INFO     | Waiting for application shutdown.
+2025-08-25 19:47:53 | INFO     | Started server process [11182]
+2025-08-25 19:47:53 | INFO     | Waiting for application startup.
+2025-08-25 19:47:53 | INFO     | Application startup complete.
+2025-08-25 19:47:53 | INFO     | Shutting down
+2025-08-25 19:47:54 | INFO     | Started server process [11202]
+2025-08-25 19:47:54 | INFO     | Waiting for application startup.
+2025-08-25 19:47:54 | INFO     | Application startup complete.
+2025-08-25 19:47:55 | INFO     | Shutting down
+2025-08-25 19:47:56 | INFO     | Started server process [11212]
+2025-08-25 19:47:56 | INFO     | Waiting for application startup.
+2025-08-25 19:47:56 | INFO     | Application startup complete.
+2025-08-25 19:47:57 | INFO     | Shutting down
+2025-08-25 19:47:59 | INFO     | Started server process [11234]
+2025-08-25 19:47:59 | INFO     | Waiting for application startup.
+2025-08-25 19:47:59 | INFO     | Application startup complete.
+2025-08-25 19:48:01 | INFO     | Shutting down
+2025-08-25 19:48:03 | INFO     | Started server process [11252]
+2025-08-25 19:48:03 | INFO     | Waiting for application startup.
+2025-08-25 19:48:03 | INFO     | Application startup complete.
+2025-08-25 19:48:06 | INFO     | Shutting down
+2025-08-25 19:48:05 | INFO     | Started server process [11287]
+2025-08-25 19:48:05 | INFO     | Waiting for application startup.
+2025-08-25 19:48:05 | INFO     | Application startup complete.
+2025-08-25 19:48:08 | INFO     | Shutting down
+2025-08-25 19:48:09 | INFO     | Started server process [11316]
+2025-08-25 19:48:09 | INFO     | Waiting for application startup.
+2025-08-25 19:48:09 | INFO     | Application startup complete.
+2025-08-25 19:48:11 | INFO     | Shutting down
+2025-08-25 19:48:12 | INFO     | Started server process [11346]
+2025-08-25 19:48:12 | INFO     | Waiting for application startup.
+2025-08-25 19:48:12 | INFO     | Application startup complete.
+2025-08-25 19:48:17 | INFO     | Shutting down
+2025-08-25 19:48:18 | INFO     | Started server process [11381]
+2025-08-25 19:48:18 | INFO     | Waiting for application startup.
+2025-08-25 19:48:18 | INFO     | Application startup complete.
+2025-08-25 19:48:22 | INFO     | Shutting down
+2025-08-25 19:48:23 | INFO     | Started server process [11416]
+2025-08-25 19:48:23 | INFO     | Waiting for application startup.
+2025-08-25 19:48:23 | INFO     | Application startup complete.
+2025-08-25 19:48:24 | INFO     | Shutting down
+2025-08-25 19:48:24 | INFO     | Waiting for application shutdown.
+2025-08-25 19:48:25 | INFO     | Started server process [11418]
+2025-08-25 19:48:25 | INFO     | Waiting for application startup.
+2025-08-25 19:48:25 | INFO     | Application startup complete.
+2025-08-25 19:48:26 | INFO     | Shutting down
+2025-08-25 19:48:27 | INFO     | Started server process [11438]
+2025-08-25 19:48:27 | INFO     | Waiting for application startup.
+2025-08-25 19:48:27 | INFO     | Application startup complete.
+2025-08-25 19:48:35 | INFO     | Shutting down
+2025-08-25 19:48:36 | INFO     | Started server process [11493]
+2025-08-25 19:48:36 | INFO     | Waiting for application startup.
+2025-08-25 19:48:36 | INFO     | Application startup complete.
+2025-08-25 19:48:40 | INFO     | Shutting down
+2025-08-25 19:48:41 | INFO     | Started server process [11522]
+2025-08-25 19:48:41 | INFO     | Waiting for application startup.
+2025-08-25 19:48:41 | INFO     | Application startup complete.
+2025-08-25 19:48:43 | INFO     | Shutting down
+2025-08-25 19:48:45 | INFO     | Started server process [11557]
+2025-08-25 19:48:45 | INFO     | Waiting for application startup.
+2025-08-25 19:48:45 | INFO     | Application startup complete.
+2025-08-25 19:48:46 | INFO     | Shutting down
+2025-08-25 19:48:47 | INFO     | Started server process [11559]
+2025-08-25 19:48:47 | INFO     | Waiting for application startup.
+2025-08-25 19:48:47 | INFO     | Application startup complete.
+2025-08-25 19:48:48 | INFO     | Shutting down
+2025-08-25 19:48:49 | INFO     | Started server process [11588]
+2025-08-25 19:48:49 | INFO     | Waiting for application startup.
+2025-08-25 19:48:49 | INFO     | Application startup complete.
+2025-08-25 19:48:55 | INFO     | Shutting down
+2025-08-25 19:48:56 | INFO     | Started server process [11624]
+2025-08-25 19:48:56 | INFO     | Waiting for application startup.
+2025-08-25 19:48:56 | INFO     | Application startup complete.
+2025-08-25 19:48:57 | INFO     | Shutting down
+2025-08-25 19:48:58 | INFO     | Started server process [11644]
+2025-08-25 19:48:58 | INFO     | Waiting for application startup.
+2025-08-25 19:48:58 | INFO     | Application startup complete.
+2025-08-25 19:48:59 | INFO     | Shutting down
+2025-08-25 19:49:01 | INFO     | Started server process [11660]
+2025-08-25 19:49:01 | INFO     | Waiting for application startup.
+2025-08-25 19:49:01 | INFO     | Application startup complete.
+2025-08-25 19:49:03 | INFO     | Shutting down
+2025-08-25 19:49:04 | INFO     | Started server process [11689]
+2025-08-25 19:49:04 | INFO     | Waiting for application startup.
+2025-08-25 19:49:04 | INFO     | Application startup complete.
+2025-08-25 19:49:04 | INFO     | Shutting down
+2025-08-25 19:49:03 | INFO     | Started server process [11691]
+2025-08-25 19:49:03 | INFO     | Waiting for application startup.
+2025-08-25 19:49:03 | INFO     | Application startup complete.
+2025-08-25 19:49:07 | INFO     | Shutting down
+2025-08-25 19:49:08 | INFO     | Started server process [11726]
+2025-08-25 19:49:08 | INFO     | Waiting for application startup.
+2025-08-25 19:49:08 | INFO     | Application startup complete.
+2025-08-25 19:49:11 | INFO     | Shutting down
+2025-08-25 19:49:11 | INFO     | Waiting for application shutdown.
+2025-08-25 19:49:12 | INFO     | Started server process [11747]
+2025-08-25 19:49:12 | INFO     | Waiting for application startup.
+2025-08-25 19:49:12 | INFO     | Application startup complete.
+2025-08-25 19:49:18 | INFO     | Shutting down
+2025-08-25 19:49:19 | INFO     | Started server process [11790]
+2025-08-25 19:49:19 | INFO     | Waiting for application startup.
+2025-08-25 19:49:19 | INFO     | Application startup complete.
+2025-08-25 19:49:24 | INFO     | Shutting down
+2025-08-25 19:49:26 | INFO     | Started server process [11825]
+2025-08-25 19:49:26 | INFO     | Waiting for application startup.
+2025-08-25 19:49:26 | INFO     | Application startup complete.
+2025-08-25 19:49:26 | INFO     | Shutting down
+2025-08-25 19:49:27 | INFO     | Started server process [11845]
+2025-08-25 19:49:27 | INFO     | Waiting for application startup.
+2025-08-25 19:49:27 | INFO     | Application startup complete.
+2025-08-25 19:49:27 | INFO     | Shutting down
+2025-08-25 19:49:29 | INFO     | Started server process [11857]
+2025-08-25 19:49:29 | INFO     | Waiting for application startup.
+2025-08-25 19:49:29 | INFO     | Application startup complete.
+2025-08-25 19:49:29 | INFO     | Shutting down
+2025-08-25 19:49:30 | INFO     | Started server process [11865]
+2025-08-25 19:49:30 | INFO     | Waiting for application startup.
+2025-08-25 19:49:30 | INFO     | Application startup complete.
+2025-08-25 19:49:32 | INFO     | Shutting down
+2025-08-25 19:49:33 | INFO     | Started server process [11885]
+2025-08-25 19:49:33 | INFO     | Waiting for application startup.
+2025-08-25 19:49:33 | INFO     | Application startup complete.
+2025-08-25 19:49:36 | INFO     | Shutting down
+2025-08-25 19:49:37 | INFO     | Started server process [11928]
+2025-08-25 19:49:37 | INFO     | Waiting for application startup.
+2025-08-25 19:49:37 | INFO     | Application startup complete.
+2025-08-25 19:49:39 | INFO     | Shutting down
+2025-08-25 19:49:40 | INFO     | Started server process [11937]
+2025-08-25 19:49:40 | INFO     | Waiting for application startup.
+2025-08-25 19:49:40 | INFO     | Application startup complete.
+2025-08-25 19:49:43 | INFO     | Shutting down
+2025-08-25 19:49:44 | INFO     | Started server process [11966]
+2025-08-25 19:49:44 | INFO     | Waiting for application startup.
+2025-08-25 19:49:44 | INFO     | Application startup complete.
+2025-08-25 19:50:00 | INFO     | Shutting down
+2025-08-25 19:50:01 | INFO     | Started server process [12025]
+2025-08-25 19:50:01 | INFO     | Waiting for application startup.
+2025-08-25 19:50:01 | INFO     | Application startup complete.
+2025-08-25 19:50:02 | INFO     | Shutting down
+2025-08-25 19:50:03 | INFO     | Started server process [12048]
+2025-08-25 19:50:03 | INFO     | Waiting for application startup.
+2025-08-25 19:50:03 | INFO     | Application startup complete.
+2025-08-25 19:50:04 | INFO     | Shutting down
+2025-08-25 19:50:05 | INFO     | Started server process [12083]
+2025-08-25 19:50:05 | INFO     | Waiting for application startup.
+2025-08-25 19:50:05 | INFO     | Application startup complete.
+2025-08-25 19:50:40 | INFO     | Shutting down
+2025-08-25 19:50:41 | INFO     | Started server process [12183]
+2025-08-25 19:50:41 | INFO     | Waiting for application startup.
+2025-08-25 19:50:41 | INFO     | Application startup complete.
+2025-08-25 19:50:47 | INFO     | Shutting down
+2025-08-25 19:50:48 | INFO     | Started server process [12236]
+2025-08-25 19:50:48 | INFO     | Waiting for application startup.
+2025-08-25 19:50:48 | INFO     | Application startup complete.
+2025-08-25 19:50:56 | INFO     | Shutting down
+2025-08-25 19:50:57 | INFO     | Started server process [12287]
+2025-08-25 19:50:57 | INFO     | Waiting for application startup.
+2025-08-25 19:50:57 | INFO     | Application startup complete.
+2025-08-25 19:51:08 | INFO     | Shutting down
+2025-08-25 19:51:08 | INFO     | Waiting for application shutdown.
+2025-08-25 19:51:08 | INFO     | Started server process [12356]
+2025-08-25 19:51:09 | INFO     | Waiting for application startup.
+2025-08-25 19:51:09 | INFO     | Application startup complete.
+2025-08-25 19:51:11 | INFO     | Shutting down
+2025-08-25 19:51:11 | INFO     | Started server process [12385]
+2025-08-25 19:51:11 | INFO     | Waiting for application startup.
+2025-08-25 19:51:11 | INFO     | Application startup complete.
+2025-08-25 19:51:14 | INFO     | Shutting down
+2025-08-25 19:51:15 | INFO     | Started server process [12405]
+2025-08-25 19:51:15 | INFO     | Waiting for application startup.
+2025-08-25 19:51:15 | INFO     | Application startup complete.
+2025-08-25 19:51:16 | INFO     | Shutting down
+2025-08-25 19:51:17 | INFO     | Started server process [12421]
+2025-08-25 19:51:17 | INFO     | Waiting for application startup.
+2025-08-25 19:51:17 | INFO     | Application startup complete.
+2025-08-25 19:51:18 | INFO     | Shutting down
+2025-08-25 19:51:18 | INFO     | Waiting for application shutdown.
+2025-08-25 19:51:19 | INFO     | Started server process [12423]
+2025-08-25 19:51:19 | INFO     | Waiting for application startup.
+2025-08-25 19:51:19 | INFO     | Application startup complete.
+2025-08-25 19:51:23 | INFO     | Shutting down
+2025-08-25 19:51:24 | INFO     | Started server process [12458]
+2025-08-25 19:51:24 | INFO     | Waiting for application startup.
+2025-08-25 19:51:24 | INFO     | Application startup complete.
+2025-08-25 19:51:32 | INFO     | Shutting down
+2025-08-25 19:51:33 | INFO     | Started server process [12520]
+2025-08-25 19:51:33 | INFO     | Waiting for application startup.
+2025-08-25 19:51:33 | INFO     | Application startup complete.
+2025-08-25 19:51:37 | INFO     | Shutting down
+2025-08-25 19:51:38 | INFO     | Started server process [12576]
+2025-08-25 19:51:38 | INFO     | Waiting for application startup.
+2025-08-25 19:51:38 | INFO     | Application startup complete.
+2025-08-25 19:51:40 | INFO     | Shutting down
+2025-08-25 19:51:41 | INFO     | Started server process [12584]
+2025-08-25 19:51:41 | INFO     | Waiting for application startup.
+2025-08-25 19:51:41 | INFO     | Application startup complete.
+2025-08-25 19:51:51 | INFO     | Shutting down
+2025-08-25 19:51:52 | INFO     | Started server process [12652]
+2025-08-25 19:51:52 | INFO     | Waiting for application startup.
+2025-08-25 19:51:52 | INFO     | Application startup complete.
+2025-08-25 19:52:05 | INFO     | Shutting down
+2025-08-25 19:52:06 | INFO     | Started server process [12726]
+2025-08-25 19:52:06 | INFO     | Waiting for application startup.
+2025-08-25 19:52:06 | INFO     | Application startup complete.
+2025-08-25 19:52:16 | INFO     | Shutting down
+2025-08-25 19:52:17 | INFO     | Waiting for application shutdown.
+2025-08-25 19:52:18 | INFO     | Started server process [12794]
+2025-08-25 19:52:18 | INFO     | Waiting for application startup.
+2025-08-25 19:52:18 | INFO     | Application startup complete.
+2025-08-25 19:52:21 | INFO     | Shutting down
+2025-08-25 19:52:22 | INFO     | Started server process [12826]
+2025-08-25 19:52:22 | INFO     | Waiting for application startup.
+2025-08-25 19:52:22 | INFO     | Application startup complete.
+2025-08-25 19:52:22 | INFO     | Shutting down
+2025-08-25 19:52:22 | INFO     | Waiting for application shutdown.
+2025-08-25 19:52:24 | INFO     | Started server process [12840]
+2025-08-25 19:52:24 | INFO     | Waiting for application startup.
+2025-08-25 19:52:24 | INFO     | Application startup complete.
+2025-08-25 19:52:25 | INFO     | Shutting down
+2025-08-25 19:52:26 | INFO     | Started server process [12858]
+2025-08-25 19:52:26 | INFO     | Waiting for application startup.
+2025-08-25 19:52:26 | INFO     | Application startup complete.
+2025-08-25 19:52:26 | INFO     | Shutting down
+2025-08-25 19:52:26 | INFO     | Waiting for application shutdown.
+2025-08-25 19:52:27 | INFO     | Started server process [12860]
+2025-08-25 19:52:27 | INFO     | Waiting for application startup.
+2025-08-25 19:52:27 | INFO     | Application startup complete.
+2025-08-25 19:52:27 | INFO     | Shutting down
+2025-08-25 19:52:28 | INFO     | Started server process [12862]
+2025-08-25 19:52:28 | INFO     | Waiting for application startup.
+2025-08-25 19:52:28 | INFO     | Application startup complete.
+2025-08-25 19:52:28 | INFO     | Shutting down
+2025-08-25 19:52:28 | INFO     | Waiting for application shutdown.
+2025-08-25 19:52:29 | INFO     | Started server process [12882]
+2025-08-25 19:52:29 | INFO     | Waiting for application startup.
+2025-08-25 19:52:29 | INFO     | Application startup complete.
+2025-08-25 19:52:31 | INFO     | Shutting down
+2025-08-25 19:52:32 | INFO     | Started server process [12900]
+2025-08-25 19:52:32 | INFO     | Waiting for application startup.
+2025-08-25 19:52:32 | INFO     | Application startup complete.
+2025-08-25 19:52:37 | INFO     | Shutting down
+2025-08-25 19:55:19 | INFO     | Started server process [13890]
+2025-08-25 19:55:19 | INFO     | Waiting for application startup.
+2025-08-25 19:55:19 | INFO     | Application startup complete.
+2025-08-25 19:56:25 | INFO     | Shutting down
+2025-08-25 19:56:41 | INFO     | Started server process [14177]
+2025-08-25 19:56:41 | INFO     | Waiting for application startup.
+2025-08-25 19:56:41 | INFO     | Application startup complete.
+2025-08-25 19:56:50 | INFO     | Shutting down
+2025-08-25 19:56:51 | INFO     | Started server process [14223]
+2025-08-25 19:56:51 | INFO     | Waiting for application startup.
+2025-08-25 19:56:51 | INFO     | Application startup complete.
+2025-08-25 19:57:59 | INFO     | 127.0.0.1 - "GET /docs" 401 Unauthorized 0.81 ms
+2025-08-25 19:57:59 | INFO     | 127.0.0.1:39124 - "GET /docs HTTP/1.1" 401
+2025-08-25 19:58:00 | INFO     | 127.0.0.1 - "GET /docs" 401 Unauthorized 1.02 ms
+2025-08-25 19:58:00 | INFO     | 127.0.0.1:39124 - "GET /docs HTTP/1.1" 401
+2025-08-25 19:58:04 | INFO     | 127.0.0.1 - "GET /docs" 200 OK 4.53 ms
+2025-08-25 19:58:04 | INFO     | 127.0.0.1:39124 - "GET /docs HTTP/1.1" 200
+2025-08-25 19:58:04 | ERROR    | 127.0.0.1 - "GET /openapi.json" 500 Internal Server Error
+Traceback (most recent call last):
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 151, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/anyio/streams/memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/e/WSL/UbuntuCustom/self_growth/project/restapi_vs_graphql/backend/app/middleware/log_middleware.py", line 21, in log_request_middleware
+    response: Response = await call_next(request)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 159, in call_next
+    raise app_exc
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/sessions.py", line 85, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/routing.py", line 78, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/routing.py", line 75, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/fastapi/routing.py", line 302, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/fastapi/routing.py", line 213, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/e/WSL/UbuntuCustom/self_growth/project/restapi_vs_graphql/backend/app/main.py", line 70, in get_openapi_schema
+    return get_openapi(
+           ^^^^^^^^^^^^
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/fastapi/openapi/utils.py", line 569, in get_openapi
+    return jsonable_encoder(OpenAPI(**output), by_alias=True, exclude_none=True)  # type: ignore
+                            ^^^^^^^^^^^^^^^^^
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/pydantic/main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 3 validation errors for OpenAPI
+components.schemas.UserCreateModel.Schema.properties.email.Schema.examples
+  Input should be a valid list [type=list_type, input_value='john@gmail.com', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+components.schemas.UserCreateModel.Schema.properties.email.bool
+  Input should be a valid boolean [type=bool_type, input_value={'description': 'Email ad...mail', 'type': 'string'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/bool_type
+components.schemas.UserCreateModel.Reference.$ref
+  Field required [type=missing, input_value={'properties': {'full_nam...odel', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+2025-08-25 19:58:05 | ERROR    | common/exception_handler.py:41 | 127.0.0.1:39124 - "GET /openapi.json" 500 Internal Server Error <ValidationError: 3 validation errors for OpenAPI
+components.schemas.UserCreateModel.Schema.properties.email.Schema.examples
+  Input should be a valid list [type=list_type, input_value='john@gmail.com', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+components.schemas.UserCreateModel.Schema.properties.email.bool
+  Input should be a valid boolean [type=bool_type, input_value={'description': 'Email ad...mail', 'type': 'string'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/bool_type
+components.schemas.UserCreateModel.Reference.$ref
+  Field required [type=missing, input_value={'properties': {'full_nam...odel', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing>
+2025-08-25 19:58:05 | INFO     | 127.0.0.1:39124 - "GET /openapi.json HTTP/1.1" 500
+2025-08-25 19:58:05 | ERROR    | Exception in ASGI application
+  + Exception Group Traceback (most recent call last):
+  |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/_utils.py", line 77, in collapse_excgroups
+  |     yield
+  |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 183, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 772, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    |     result = await app(  # type: ignore[func-returns-value]
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    |     return await self.app(scope, receive, send)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/applications.py", line 113, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    |     raise exc
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 182, in __call__
+    |     with recv_stream, send_stream, collapse_excgroups():
+    |                                    ^^^^^^^^^^^^^^^^^^^^
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/contextlib.py", line 158, in __exit__
+    |     self.gen.throw(value)
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/_utils.py", line 83, in collapse_excgroups
+    |     raise exc
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 184, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/mnt/e/WSL/UbuntuCustom/self_growth/project/restapi_vs_graphql/backend/app/middleware/log_middleware.py", line 21, in log_request_middleware
+    |     response: Response = await call_next(request)
+    |                          ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 159, in call_next
+    |     raise app_exc
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 144, in coro
+    |     await self.app(scope, receive_or_disconnect, send_no_error)
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 85, in __call__
+    |     await self.app(scope, receive, send)
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/sessions.py", line 85, in __call__
+    |     await self.app(scope, receive, send_wrapper)
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    |     await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    |     raise exc
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/routing.py", line 716, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/routing.py", line 736, in app
+    |     await route.handle(scope, receive, send)
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/routing.py", line 290, in handle
+    |     await self.app(scope, receive, send)
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/routing.py", line 78, in app
+    |     await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    |     raise exc
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/routing.py", line 75, in app
+    |     response = await f(request)
+    |                ^^^^^^^^^^^^^^^^
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/fastapi/routing.py", line 302, in app
+    |     raw_response = await run_endpoint_function(
+    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/fastapi/routing.py", line 213, in run_endpoint_function
+    |     return await dependant.call(**values)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/mnt/e/WSL/UbuntuCustom/self_growth/project/restapi_vs_graphql/backend/app/main.py", line 70, in get_openapi_schema
+    |     return get_openapi(
+    |            ^^^^^^^^^^^^
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/fastapi/openapi/utils.py", line 569, in get_openapi
+    |     return jsonable_encoder(OpenAPI(**output), by_alias=True, exclude_none=True)  # type: ignore
+    |                             ^^^^^^^^^^^^^^^^^
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/pydantic/main.py", line 253, in __init__
+    |     validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+    |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    | pydantic_core._pydantic_core.ValidationError: 3 validation errors for OpenAPI
+    | components.schemas.UserCreateModel.Schema.properties.email.Schema.examples
+    |   Input should be a valid list [type=list_type, input_value='john@gmail.com', input_type=str]
+    |     For further information visit https://errors.pydantic.dev/2.11/v/list_type
+    | components.schemas.UserCreateModel.Schema.properties.email.bool
+    |   Input should be a valid boolean [type=bool_type, input_value={'description': 'Email ad...mail', 'type': 'string'}, input_type=dict]
+    |     For further information visit https://errors.pydantic.dev/2.11/v/bool_type
+    | components.schemas.UserCreateModel.Reference.$ref
+    |   Field required [type=missing, input_value={'properties': {'full_nam...odel', 'type': 'object'}, input_type=dict]
+    |     For further information visit https://errors.pydantic.dev/2.11/v/missing
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 182, in __call__
+    with recv_stream, send_stream, collapse_excgroups():
+                                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/_utils.py", line 83, in collapse_excgroups
+    raise exc
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 184, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/e/WSL/UbuntuCustom/self_growth/project/restapi_vs_graphql/backend/app/middleware/log_middleware.py", line 21, in log_request_middleware
+    response: Response = await call_next(request)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 159, in call_next
+    raise app_exc
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/sessions.py", line 85, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/routing.py", line 78, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/routing.py", line 75, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/fastapi/routing.py", line 302, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/fastapi/routing.py", line 213, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/e/WSL/UbuntuCustom/self_growth/project/restapi_vs_graphql/backend/app/main.py", line 70, in get_openapi_schema
+    return get_openapi(
+           ^^^^^^^^^^^^
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/fastapi/openapi/utils.py", line 569, in get_openapi
+    return jsonable_encoder(OpenAPI(**output), by_alias=True, exclude_none=True)  # type: ignore
+                            ^^^^^^^^^^^^^^^^^
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/pydantic/main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 3 validation errors for OpenAPI
+components.schemas.UserCreateModel.Schema.properties.email.Schema.examples
+  Input should be a valid list [type=list_type, input_value='john@gmail.com', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+components.schemas.UserCreateModel.Schema.properties.email.bool
+  Input should be a valid boolean [type=bool_type, input_value={'description': 'Email ad...mail', 'type': 'string'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/bool_type
+components.schemas.UserCreateModel.Reference.$ref
+  Field required [type=missing, input_value={'properties': {'full_nam...odel', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+2025-08-25 19:58:49 | INFO     | Shutting down
+2025-08-25 19:58:47 | INFO     | Started server process [14852]
+2025-08-25 19:58:47 | INFO     | Waiting for application startup.
+2025-08-25 19:58:47 | INFO     | Application startup complete.
+2025-08-25 19:58:56 | INFO     | 127.0.0.1 - "GET /docs" 200 OK 1.95 ms
+2025-08-25 19:58:56 | INFO     | 127.0.0.1:37280 - "GET /docs HTTP/1.1" 200
+2025-08-25 19:58:56 | ERROR    | 127.0.0.1 - "GET /openapi.json" 500 Internal Server Error
+Traceback (most recent call last):
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 151, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/anyio/streams/memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/e/WSL/UbuntuCustom/self_growth/project/restapi_vs_graphql/backend/app/middleware/log_middleware.py", line 21, in log_request_middleware
+    response: Response = await call_next(request)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 159, in call_next
+    raise app_exc
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/sessions.py", line 85, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/routing.py", line 78, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/routing.py", line 75, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/fastapi/routing.py", line 302, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/fastapi/routing.py", line 213, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/e/WSL/UbuntuCustom/self_growth/project/restapi_vs_graphql/backend/app/main.py", line 70, in get_openapi_schema
+    return get_openapi(
+           ^^^^^^^^^^^^
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/fastapi/openapi/utils.py", line 569, in get_openapi
+    return jsonable_encoder(OpenAPI(**output), by_alias=True, exclude_none=True)  # type: ignore
+                            ^^^^^^^^^^^^^^^^^
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/pydantic/main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 3 validation errors for OpenAPI
+components.schemas.UserCreateModel.Schema.properties.email.Schema.examples
+  Input should be a valid list [type=list_type, input_value='john@gmail.com', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+components.schemas.UserCreateModel.Schema.properties.email.bool
+  Input should be a valid boolean [type=bool_type, input_value={'description': 'Email ad...mail', 'type': 'string'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/bool_type
+components.schemas.UserCreateModel.Reference.$ref
+  Field required [type=missing, input_value={'properties': {'full_nam...odel', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+2025-08-25 19:58:56 | ERROR    | common/exception_handler.py:41 | 127.0.0.1:37280 - "GET /openapi.json" 500 Internal Server Error <ValidationError: 3 validation errors for OpenAPI
+components.schemas.UserCreateModel.Schema.properties.email.Schema.examples
+  Input should be a valid list [type=list_type, input_value='john@gmail.com', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+components.schemas.UserCreateModel.Schema.properties.email.bool
+  Input should be a valid boolean [type=bool_type, input_value={'description': 'Email ad...mail', 'type': 'string'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/bool_type
+components.schemas.UserCreateModel.Reference.$ref
+  Field required [type=missing, input_value={'properties': {'full_nam...odel', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing>
+2025-08-25 19:58:56 | INFO     | 127.0.0.1:37280 - "GET /openapi.json HTTP/1.1" 500
+2025-08-25 19:58:56 | ERROR    | Exception in ASGI application
+  + Exception Group Traceback (most recent call last):
+  |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/_utils.py", line 77, in collapse_excgroups
+  |     yield
+  |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 183, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 772, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    |     result = await app(  # type: ignore[func-returns-value]
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    |     return await self.app(scope, receive, send)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/applications.py", line 113, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    |     raise exc
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 182, in __call__
+    |     with recv_stream, send_stream, collapse_excgroups():
+    |                                    ^^^^^^^^^^^^^^^^^^^^
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/contextlib.py", line 158, in __exit__
+    |     self.gen.throw(value)
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/_utils.py", line 83, in collapse_excgroups
+    |     raise exc
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 184, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/mnt/e/WSL/UbuntuCustom/self_growth/project/restapi_vs_graphql/backend/app/middleware/log_middleware.py", line 21, in log_request_middleware
+    |     response: Response = await call_next(request)
+    |                          ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 159, in call_next
+    |     raise app_exc
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 144, in coro
+    |     await self.app(scope, receive_or_disconnect, send_no_error)
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 85, in __call__
+    |     await self.app(scope, receive, send)
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/sessions.py", line 85, in __call__
+    |     await self.app(scope, receive, send_wrapper)
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    |     await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    |     raise exc
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/routing.py", line 716, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/routing.py", line 736, in app
+    |     await route.handle(scope, receive, send)
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/routing.py", line 290, in handle
+    |     await self.app(scope, receive, send)
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/routing.py", line 78, in app
+    |     await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    |     raise exc
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/routing.py", line 75, in app
+    |     response = await f(request)
+    |                ^^^^^^^^^^^^^^^^
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/fastapi/routing.py", line 302, in app
+    |     raw_response = await run_endpoint_function(
+    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/fastapi/routing.py", line 213, in run_endpoint_function
+    |     return await dependant.call(**values)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/mnt/e/WSL/UbuntuCustom/self_growth/project/restapi_vs_graphql/backend/app/main.py", line 70, in get_openapi_schema
+    |     return get_openapi(
+    |            ^^^^^^^^^^^^
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/fastapi/openapi/utils.py", line 569, in get_openapi
+    |     return jsonable_encoder(OpenAPI(**output), by_alias=True, exclude_none=True)  # type: ignore
+    |                             ^^^^^^^^^^^^^^^^^
+    |   File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/pydantic/main.py", line 253, in __init__
+    |     validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+    |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    | pydantic_core._pydantic_core.ValidationError: 3 validation errors for OpenAPI
+    | components.schemas.UserCreateModel.Schema.properties.email.Schema.examples
+    |   Input should be a valid list [type=list_type, input_value='john@gmail.com', input_type=str]
+    |     For further information visit https://errors.pydantic.dev/2.11/v/list_type
+    | components.schemas.UserCreateModel.Schema.properties.email.bool
+    |   Input should be a valid boolean [type=bool_type, input_value={'description': 'Email ad...mail', 'type': 'string'}, input_type=dict]
+    |     For further information visit https://errors.pydantic.dev/2.11/v/bool_type
+    | components.schemas.UserCreateModel.Reference.$ref
+    |   Field required [type=missing, input_value={'properties': {'full_nam...odel', 'type': 'object'}, input_type=dict]
+    |     For further information visit https://errors.pydantic.dev/2.11/v/missing
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 182, in __call__
+    with recv_stream, send_stream, collapse_excgroups():
+                                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/_utils.py", line 83, in collapse_excgroups
+    raise exc
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 184, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/e/WSL/UbuntuCustom/self_growth/project/restapi_vs_graphql/backend/app/middleware/log_middleware.py", line 21, in log_request_middleware
+    response: Response = await call_next(request)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 159, in call_next
+    raise app_exc
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/sessions.py", line 85, in __call__
+    await self.app(scope, receive, send_wrapper)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/routing.py", line 78, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/starlette/routing.py", line 75, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/fastapi/routing.py", line 302, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/fastapi/routing.py", line 213, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/e/WSL/UbuntuCustom/self_growth/project/restapi_vs_graphql/backend/app/main.py", line 70, in get_openapi_schema
+    return get_openapi(
+           ^^^^^^^^^^^^
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/fastapi/openapi/utils.py", line 569, in get_openapi
+    return jsonable_encoder(OpenAPI(**output), by_alias=True, exclude_none=True)  # type: ignore
+                            ^^^^^^^^^^^^^^^^^
+  File "/home/wslbasuwsl/miniconda3/envs/graphql_venv/lib/python3.12/site-packages/pydantic/main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 3 validation errors for OpenAPI
+components.schemas.UserCreateModel.Schema.properties.email.Schema.examples
+  Input should be a valid list [type=list_type, input_value='john@gmail.com', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+components.schemas.UserCreateModel.Schema.properties.email.bool
+  Input should be a valid boolean [type=bool_type, input_value={'description': 'Email ad...mail', 'type': 'string'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/bool_type
+components.schemas.UserCreateModel.Reference.$ref
+  Field required [type=missing, input_value={'properties': {'full_nam...odel', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+2025-08-25 20:00:44 | INFO     | Shutting down
+2025-08-25 20:00:46 | INFO     | Started server process [15223]
+2025-08-25 20:00:46 | INFO     | Waiting for application startup.
+2025-08-25 20:00:46 | INFO     | Application startup complete.
+2025-08-25 20:00:49 | INFO     | Shutting down
+2025-08-25 20:00:50 | INFO     | Started server process [15279]
+2025-08-25 20:00:50 | INFO     | Waiting for application startup.
+2025-08-25 20:00:50 | INFO     | Application startup complete.
+2025-08-25 20:00:52 | INFO     | Shutting down
+2025-08-25 20:00:53 | INFO     | Started server process [15288]
+2025-08-25 20:00:53 | INFO     | Waiting for application startup.
+2025-08-25 20:00:53 | INFO     | Application startup complete.
+2025-08-25 20:00:56 | INFO     | Shutting down
+2025-08-25 20:00:58 | INFO     | Started server process [15316]
+2025-08-25 20:00:58 | INFO     | Waiting for application startup.
+2025-08-25 20:00:58 | INFO     | Application startup complete.
+2025-08-25 20:01:04 | INFO     | 127.0.0.1 - "GET /docs" 200 OK 2.97 ms
+2025-08-25 20:01:04 | INFO     | 127.0.0.1:37384 - "GET /docs HTTP/1.1" 200
+2025-08-25 20:01:04 | INFO     | 127.0.0.1 - "GET /openapi.json" 200 OK 16.44 ms
+2025-08-25 20:01:04 | INFO     | 127.0.0.1:37384 - "GET /openapi.json HTTP/1.1" 200
+2025-08-25 20:07:15 | INFO     | Shutting down
+2025-08-25 20:07:16 | INFO     | Waiting for application shutdown.
+2025-08-25 20:07:16 | INFO     | Application shutdown complete.
+2025-08-25 20:07:16 | INFO     | Finished server process [15316]
