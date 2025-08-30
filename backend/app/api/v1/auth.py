@@ -17,23 +17,23 @@ async def signup(user_payload: UserSignupModel = Body(..., description="User sig
         user_data = user_payload.to_db()
         email = user_data.get("email")
 
-        existing_user = await users_collection.find_one({"email":email})
+        existing_user = await users_collection.find_one({"email": email})
         if existing_user:
-            raise HTTPException(status_code = status.HTTP_409_CONFLICT, detail="User with this email already exists")
-        
+            raise HTTPException(status_code=status.HTTP_409_CONFLICT, detail="User with this email already exists")
+
         inserted_result = await users_collection.insert_one(user_data)
         if not inserted_result.acknowledged:
             raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Failed to create user")
-            
+
         return JSONResponse(
             status_code=status.HTTP_201_CREATED,
             content={
                 "message": "User created successfully",
                 "status": True,
                 "data": {"user_id": str(inserted_result.inserted_id)},
-            }
+            },
         )
-    
+
     except HTTPException as http_err:
         logger.error(f"HTTP error during signup: {http_err.detail}")
         raise http_err

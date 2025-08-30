@@ -30,10 +30,10 @@ class AuthService:
                 status_code=status.HTTP_400_BAD_REQUEST, detail="Password should contain at least one special character"
             )
 
-        if not re.search(r"(.)\1{2,}", password):
+        if re.search(r"(.)\1{2,}", password):
             raise HTTPException(
                 status_code=status.HTTP_400_BAD_REQUEST,
-                detail="Password should not contain more than two identical characters in a row",
+                detail="Cannot contain repetitive characters",
             )
 
         return cls.generate_hashed_password(password)
