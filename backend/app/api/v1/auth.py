@@ -21,4 +21,3 @@ async def signup(user_payload: UserSignupModel = Body(..., description="User sig
     except Exception as e:
         logger.error(f"Unexpected error during payload parsing: {str(e)}")
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=f"Invalid payload. Error: {str(e)}")
-        
