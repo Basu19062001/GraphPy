@@ -32,3 +32,8 @@ class UserSignupModel(BaseModel):
             "address": self.address,
             "hashed_password": self._hashed_password,
         }
+
+
+class UserSigninModel(BaseModel):
+    email: EmailStr = Field(..., description="Email address of the user")
+    password: str = Field(..., description="Password for the user account", min_length=8)

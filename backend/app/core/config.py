@@ -23,6 +23,7 @@ class Settings(BaseSettings):
 
     # Security Settings
     JWT_SECRET_KEY: str = config("JWT_SECRET_KEY", cast=str)
+    AUTHENTICATION_ALGORITHM: str = "HS256"
 
     API_V1_STR: str = config("API_V1_STR", cast=str, default="/api/v1")
 
