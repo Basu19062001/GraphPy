@@ -1,0 +1,77 @@
+2025-08-31 15:58:01 | INFO     | core/db.py:32 | Connected to MongoDB.
+2025-08-31 15:58:02 | INFO     | Started server process [2641]
+2025-08-31 15:58:02 | INFO     | Waiting for application startup.
+2025-08-31 15:58:02 | INFO     | Application startup complete.
+2025-08-31 17:39:22 | INFO     | Shutting down
+2025-08-31 17:39:22 | INFO     | Waiting for application shutdown.
+2025-08-31 17:39:28 | INFO     | core/db.py:32 | Connected to MongoDB.
+2025-08-31 17:39:28 | INFO     | Started server process [12366]
+2025-08-31 17:39:28 | INFO     | Waiting for application startup.
+2025-08-31 17:39:28 | INFO     | Application startup complete.
+2025-08-31 17:39:29 | INFO     | Shutting down
+2025-08-31 17:39:29 | INFO     | Waiting for application shutdown.
+2025-08-31 17:39:31 | INFO     | core/db.py:32 | Connected to MongoDB.
+2025-08-31 17:39:31 | INFO     | Started server process [12427]
+2025-08-31 17:39:31 | INFO     | Waiting for application startup.
+2025-08-31 17:39:31 | INFO     | Application startup complete.
+2025-08-31 17:39:35 | INFO     | Shutting down
+2025-08-31 17:39:36 | INFO     | core/db.py:32 | Connected to MongoDB.
+2025-08-31 17:39:36 | INFO     | Started server process [12462]
+2025-08-31 17:39:36 | INFO     | Waiting for application startup.
+2025-08-31 17:39:36 | INFO     | Application startup complete.
+2025-08-31 17:46:43 | INFO     | Shutting down
+2025-08-31 17:46:44 | INFO     | core/db.py:32 | Connected to MongoDB.
+2025-08-31 17:46:45 | INFO     | core/db.py:32 | Connected to MongoDB.
+2025-08-31 17:46:46 | INFO     | Started server process [13383]
+2025-08-31 17:46:46 | INFO     | Waiting for application startup.
+2025-08-31 17:46:46 | INFO     | Application startup complete.
+2025-08-31 17:46:52 | INFO     | Shutting down
+2025-08-31 17:46:53 | INFO     | core/db.py:32 | Connected to MongoDB.
+2025-08-31 17:46:54 | INFO     | Started server process [13432]
+2025-08-31 17:46:54 | INFO     | Waiting for application startup.
+2025-08-31 17:46:54 | INFO     | Application startup complete.
+2025-08-31 17:46:55 | INFO     | Shutting down
+2025-08-31 17:46:57 | INFO     | core/db.py:32 | Connected to MongoDB.
+2025-08-31 17:46:57 | INFO     | Started server process [13458]
+2025-08-31 17:46:57 | INFO     | Waiting for application startup.
+2025-08-31 17:46:57 | INFO     | Application startup complete.
+2025-08-31 17:47:05 | INFO     | Shutting down
+2025-08-31 17:47:06 | INFO     | core/db.py:32 | Connected to MongoDB.
+2025-08-31 17:47:07 | INFO     | Started server process [13503]
+2025-08-31 17:47:07 | INFO     | Waiting for application startup.
+2025-08-31 17:47:07 | INFO     | Application startup complete.
+2025-08-31 17:47:07 | INFO     | Shutting down
+2025-08-31 17:47:07 | INFO     | Waiting for application shutdown.
+2025-08-31 17:47:08 | INFO     | core/db.py:32 | Connected to MongoDB.
+2025-08-31 17:47:08 | INFO     | Started server process [13532]
+2025-08-31 17:47:08 | INFO     | Waiting for application startup.
+2025-08-31 17:47:08 | INFO     | Application startup complete.
+2025-08-31 17:47:18 | INFO     | Shutting down
+2025-08-31 17:47:19 | INFO     | core/db.py:32 | Connected to MongoDB.
+2025-08-31 17:47:20 | INFO     | Started server process [13578]
+2025-08-31 17:47:20 | INFO     | Waiting for application startup.
+2025-08-31 17:47:20 | INFO     | Application startup complete.
+2025-08-31 17:47:22 | INFO     | Shutting down
+2025-08-31 17:47:23 | INFO     | core/db.py:32 | Connected to MongoDB.
+2025-08-31 17:47:24 | INFO     | Started server process [13613]
+2025-08-31 17:47:24 | INFO     | Waiting for application startup.
+2025-08-31 17:47:24 | INFO     | Application startup complete.
+2025-08-31 17:47:29 | INFO     | Shutting down
+2025-08-31 17:47:30 | INFO     | Waiting for application shutdown.
+2025-08-31 17:47:31 | INFO     | core/db.py:32 | Connected to MongoDB.
+2025-08-31 17:47:31 | INFO     | Started server process [13660]
+2025-08-31 17:47:31 | INFO     | Waiting for application startup.
+2025-08-31 17:47:31 | INFO     | Application startup complete.
+2025-08-31 17:47:31 | INFO     | Shutting down
+2025-08-31 17:47:32 | INFO     | Waiting for application shutdown.
+2025-08-31 17:47:33 | INFO     | core/db.py:32 | Connected to MongoDB.
+2025-08-31 17:47:33 | INFO     | Started server process [13676]
+2025-08-31 17:47:33 | INFO     | Waiting for application startup.
+2025-08-31 17:47:33 | INFO     | Application startup complete.
+2025-08-31 17:48:06 | INFO     | Shutting down
+2025-08-31 17:48:06 | INFO     | Waiting for application shutdown.
+2025-08-31 17:48:18 | INFO     | core/db.py:32 | Connected to MongoDB.
+2025-08-31 17:48:49 | INFO     | core/db.py:32 | Connected to MongoDB.
+2025-08-31 17:48:49 | INFO     | Started server process [13958]
+2025-08-31 17:48:49 | INFO     | Waiting for application startup.
+2025-08-31 17:48:49 | INFO     | Application startup complete.
