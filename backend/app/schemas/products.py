@@ -4,9 +4,10 @@ from pydantic import BaseModel, Field
 class CreateProductModel(BaseModel):
     name: str = Field(..., description="Name of the product")
     title: str = Field(..., description="Title of the product")
+    model: str = Field(..., description="Model identifier of the product")
     description: str = Field(..., description="Description of the product")
     price: float = Field(..., description="Price of the product")
-    stock: int = Field(..., description="Stock quantity of the product")
+    qty: int = Field(..., description="Stock quantity of the product")
     category: str = Field(..., description="Category of the product")
     brand: str = Field(..., description="Brand of the product")
 
