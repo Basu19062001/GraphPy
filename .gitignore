@@ -12,8 +12,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Logs
+# Logs - ignore all logs anywhere in the repo
 *.log
+*.log.*
+logs/
+**/logs/
 
 # Byte-compiled / optimized files
 *.pyo
