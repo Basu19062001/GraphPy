@@ -26,6 +26,7 @@ async def add_product(product_payload: CreateProductModel = Body(..., descriptio
                 }
             )
             if inserted_result.modified_count == 1:
+                existing_product["_id"] = str(existing_product["_id"])
                 return JSONResponse(
                     status_code=status.HTTP_201_CREATED,
                     content={
