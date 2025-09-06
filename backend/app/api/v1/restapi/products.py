@@ -1,10 +1,11 @@
-from fastapi import APIRouter, Body, status, HTTPException, Query
+from fastapi import APIRouter, Body, status, HTTPException, Query, Path
 from fastapi.responses import JSONResponse
 
 from app.schemas.responses import APIResponseModel, APIListResponseModel
 from app.schemas.products import CreateProductModel, GetProductResponseModel
 from app.logger import logger
 from app.core.db import collection
+from app.utils.utils import validate_object_id, serialize_data
 
 router = APIRouter()
 
@@ -61,17 +62,7 @@ async def get_all_products(
     try:
         skip = (page - 1) * limit
 
-        pipeline = [
-            {
-                "$facet": {
-                    "metadata": [{"$count": "total"}],
-                    "data":{
-                        {"$skip": skip},
-                        {"$limit": limit}
-                    }
-                }
-            }
-        ]
+        pipeline = [{"$facet": {"metadata": [{"$count": "total"}], "data": {{"$skip": skip}, {"$limit": limit}}}}]
 
         result = await products_collection.aggregate(pipeline).to_list(length=None)
 
@@ -80,18 +71,17 @@ async def get_all_products(
 
         metadata = result[0].get("metadata", list())
         products = result[0].get("data", list())
-        
+
         total_products = metadata[0].get("total", 0) if metadata else 0
 
         if total_products == 0:
             raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="No products found")
-        
+
         if not products:
             raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="No products found for the given page and limit")
 
-
         for product in products:
-            product["_id"] = str(product.get("_id",""))
+            product["_id"] = str(product.get("_id", ""))
 
         total_pages = (total_products + limit - 1) // limit
 
@@ -105,7 +95,7 @@ async def get_all_products(
                 "total": total_products,
                 "total_pages": total_pages,
                 "data": products,
-            }
+            },
         )
 
     except HTTPException as http_err:
@@ -114,3 +104,30 @@ async def get_all_products(
     except Exception as e:
         logger.error(f"Unexpected error during fetching products: {str(e)}")
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Failed to fetch products")
+
+
+@router.get("/details/{product_id}", response_model=APIListResponseModel, summary="Get product by id")
+async def get_product_by_id(product_id: str = Path(..., description="Mongo id of product")):
+    try:
+        product_oid = validate_object_id(product_id)
+
+        product_details = await products_collection.find_one({"_id": product_oid})
+
+        if not product_details:
+            raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"Product with id {product_id} not found")
+
+        serialized_product = serialize_data(product_details)
+
+        return JSONResponse(
+            status_code=status.HTTP_200_OK,
+            content={"message": "Get product details successfully", "status": True, "data": serialized_product},
+        )
+
+    except HTTPException as http_err:
+        logger.error(f"HTTP error while fetching product {product_id}: {http_err.detail}")
+        raise http_err
+    except Exception as e:
+        logger.error(f"Unexpected error while fetching product {product_id}: {str(e)}", exc_info=True)
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Falied to fetch product details due to internal error."
+        )
