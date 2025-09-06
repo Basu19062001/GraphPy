@@ -1,5 +1,5 @@
 from datetime import datetime, timezone
-from typing import Dict, Any
+from typing import Dict, Any, Optional
 
 from fastapi import HTTPException, status
 from bson.objectid import ObjectId
@@ -14,7 +14,7 @@ def get_current_utc_time():
         )
 
 
-def validate_object_id(id: str, error_msg: str) -> ObjectId:
+def validate_object_id(id: str, error_msg: Optional[str] = "") -> ObjectId:
     try:
         if not ObjectId.is_valid(id):
             raise ValueError("Invalid objectId Format")
