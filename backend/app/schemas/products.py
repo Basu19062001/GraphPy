@@ -23,3 +23,29 @@ class CreateProductModel(BaseModel):
                 "brand": "SampleBrand",
             }
         }
+
+
+class GetProductResponseModel(BaseModel):
+    id: str = Field(..., description="Unique identifier of the product")
+    name: str = Field(..., description="Name of the product")
+    title: str = Field(..., description="Title of the product")
+    model: str = Field(..., description="Model identifier of the product")
+    description: str = Field(..., description="Description of the product")
+    price: str = Field(..., description="Price of the product")
+    qty: int = Field(..., description="Stock quantity of the product")
+    category: str = Field(..., description="Category of the product")
+    brand: str = Field(..., description="Brand of the product")
+
+    class config:
+        schema_extra = {
+            "example": {
+                "id": "64a7b2f5e4b0c8b1a2d3e4f5",
+                "name": "Sample Product",
+                "title": "This is a sample product",
+                "description": "Detailed description of the sample product",
+                "price": 29.99,
+                "stock": 100,
+                "category": "Electronics",
+                "brand": "SampleBrand",
+            }
+        }
