@@ -5,6 +5,7 @@ from app.schemas.responses import APIResponseModel, APIListResponseModel
 from app.schemas.products import CreateProductModel, GetProductResponseModel
 from app.logger import logger
 from app.core.db import collection
+from app.utils.utils import validate_object_id
 
 router = APIRouter()
 
@@ -107,4 +108,27 @@ async def get_all_products(
 
 @router.get("/details/{product_id}", response_model=APIListResponseModel, summary="Get product by id")
 async def get_product_by_id(product_id: str = Path(..., description="Mongo id of product")):
-    pass
+    try:
+        product_oid = validate_object_id(product_id)
+
+        product_details = await products_collection.find_one({"_id":product_oid})
+
+        if not product_details:
+            raise HTTPException(status_code=status.HTTP_409_CONFLICT, detail=f"")
+        
+        return JSONResponse(
+            status_code=status.HTTP_200_OK,
+            content={
+                "message": "Get product details successfully",
+                "status": True,
+                "data":product_details
+            }
+        )
+    
+    except HTTPException as http_err:
+        logger.error(f"")
+        raise http_err
+    except Exception as e:
+        logger.error("")
+        raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=f"")
+
