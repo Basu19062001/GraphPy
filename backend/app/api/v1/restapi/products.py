@@ -111,26 +111,23 @@ async def get_product_by_id(product_id: str = Path(..., description="Mongo id of
     try:
         product_oid = validate_object_id(product_id)
 
-        product_details = await products_collection.find_one({"_id":product_oid})
+        product_details = await products_collection.find_one({"_id": product_oid})
 
         if not product_details:
             raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"Product with id {product_id} not found")
-        
+
         serialized_product = serialize_data(product_details)
-        
+
         return JSONResponse(
             status_code=status.HTTP_200_OK,
-            content={
-                "message": "Get product details successfully",
-                "status": True,
-                "data":serialized_product
-            }
+            content={"message": "Get product details successfully", "status": True, "data": serialized_product},
         )
-    
+
     except HTTPException as http_err:
         logger.error(f"HTTP error while fetching product {product_id}: {http_err.detail}")
         raise http_err
     except Exception as e:
         logger.error(f"Unexpected error while fetching product {product_id}: {str(e)}", exc_info=True)
-        raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Falied to fetch product details due to internal error.")
-
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Falied to fetch product details due to internal error."
+        )

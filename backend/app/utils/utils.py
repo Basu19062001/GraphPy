@@ -29,10 +29,10 @@ def validate_object_id(id: str, error_msg: str) -> ObjectId:
         )
 
 
-def serialize_data(data: Dict[str , Any]) -> Dict[str, Any]:
+def serialize_data(data: Dict[str, Any]) -> Dict[str, Any]:
     if not data:
         return data
-    
+
     serialize_doc = dict()
 
     for key, value in data.items():
@@ -44,5 +44,5 @@ def serialize_data(data: Dict[str , Any]) -> Dict[str, Any]:
             serialize_doc[key] = [serialize_data(item) if isinstance(item, dict) else item for item in value]
         else:
             serialize_doc[key] = value
-    
+
     return serialize_doc
