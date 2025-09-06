@@ -62,7 +62,7 @@ async def get_all_products(
     try:
         skip = (page - 1) * limit
 
-        pipeline = [{"$facet": {"metadata": [{"$count": "total"}], "data": {{"$skip": skip}, {"$limit": limit}}}}]
+        pipeline = [{"$facet": {"metadata": [{"$count": "total"}], "data": [{"$skip": skip}, {"$limit": limit}]}}]
 
         result = await products_collection.aggregate(pipeline).to_list(length=None)
 
