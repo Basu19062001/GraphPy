@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Body, status, HTTPException
 from fastapi.responses import JSONResponse
 
-from app.schemas.responses import APIResponseModel
+from app.schemas.responses import APIResponseModel, APIListResponseModel
 from app.schemas.products import CreateProductModel
 from app.logger import logger
 from app.core.db import collection
@@ -54,3 +54,8 @@ async def add_product(product_payload: CreateProductModel = Body(..., descriptio
 
     except Exception as e:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=f"Invalid payload. Error: {str(e)}")
+
+
+@router.get("/", response_model=APIListResponseModel, summary="Get all products")
+async def get_all_products():
+    pass
