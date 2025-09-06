@@ -5,7 +5,7 @@ from app.schemas.responses import APIResponseModel, APIListResponseModel
 from app.schemas.products import CreateProductModel, GetProductResponseModel
 from app.logger import logger
 from app.core.db import collection
-from app.utils.utils import validate_object_id
+from app.utils.utils import validate_object_id, serialize_data
 
 router = APIRouter()
 
@@ -114,21 +114,23 @@ async def get_product_by_id(product_id: str = Path(..., description="Mongo id of
         product_details = await products_collection.find_one({"_id":product_oid})
 
         if not product_details:
-            raise HTTPException(status_code=status.HTTP_409_CONFLICT, detail=f"")
+            raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"Product with id {product_id} not found")
+        
+        serialized_product = serialize_data(product_details)
         
         return JSONResponse(
             status_code=status.HTTP_200_OK,
             content={
                 "message": "Get product details successfully",
                 "status": True,
-                "data":product_details
+                "data":serialized_product
             }
         )
     
     except HTTPException as http_err:
-        logger.error(f"")
+        logger.error(f"HTTP error while fetching product {product_id}: {http_err.detail}")
         raise http_err
     except Exception as e:
-        logger.error("")
-        raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=f"")
+        logger.error(f"Unexpected error while fetching product {product_id}: {str(e)}", exc_info=True)
+        raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Falied to fetch product details due to internal error.")
 
