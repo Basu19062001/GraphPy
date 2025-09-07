@@ -109,7 +109,7 @@ async def get_all_products(
 @router.get("/details/{product_id}", response_model=APIListResponseModel, summary="Get product by id")
 async def get_product_by_id(product_id: str = Path(..., description="Mongo id of product")):
     try:
-        product_oid = validate_object_id(product_id, error_msg="Invalid object id"  )
+        product_oid = validate_object_id(product_id, error_msg="Invalid object id")
 
         product_details = await products_collection.find_one({"_id": product_oid})
 

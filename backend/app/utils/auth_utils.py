@@ -2,12 +2,15 @@ import re
 from typing import Optional
 from datetime import timedelta
 
-from fastapi import HTTPException, status
+from fastapi import HTTPException, status, Depends
+from fastapi.security import OAuth2PasswordBearer
 from passlib.context import CryptContext
 from jose import JWTError, jwt
 
 from app.utils.utils import get_current_utc_time
 from app.core.config import settings
+
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/auth/users/signin")
 
 
 class AuthService:
@@ -90,6 +93,29 @@ class AuthService:
 
         except Exception as e:
             raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail=f"Error verifying access token: {str(e)}")
+
+    @classmethod
+    def get_current_user(cls, token: str = Depends(oauth2_scheme)) -> dict:
+        try:
+            payload = jwt.decode(token, settings.JWT_SECRET_KEY, algorithms=[settings.AUTHENTICATION_ALGORITHM])
+
+            user_id = payload.get("sub")
+            if not user_id:
+                raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Token payload missing 'sub' (user_id)")
+
+            return payload
+
+        except JWTError as je:
+            raise HTTPException(
+                status_code=status.HTTP_401_UNAUTHORIZED, detail=f"Jwt error: {str(je)}", headers={"WWW-Authentiate": "Bearer"}
+            )
+
+        except Exception as e:
+            raise HTTPException(
+                status_code=status.HTTP_401_UNAUTHORIZED,
+                detail=f"Error verifying token: {str(e)}",
+                headers={"WWW-Authenticate": "Bearer"},
+            )
 
 
 auth_services = AuthService()
