@@ -21,7 +21,8 @@ async def order_place(
     user_payload: dict = Depends(auth_services.get_current_user),
 ):
     try:
-        user_id = user_payload.get("_id", "")
+        logger.debug(f"user_payload: {user_payload}")
+        user_id = user_payload.get("sub", "")
 
         if not user_id:
             raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Unauthorized user")
@@ -47,7 +48,7 @@ async def order_place(
                 {
                     "product_id": str(product["_id"]),
                     "name": product.get("name"),
-                    "quantity": item.quantity,
+                    "quantity": item.qty,
                     "price": product.get("price"),
                 }
             )
