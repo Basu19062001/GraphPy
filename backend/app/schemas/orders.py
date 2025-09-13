@@ -21,8 +21,8 @@ class OrderResponseModel(BaseModel):
     total_price: float = Field(..., description="Total price of this order", ge=0)
 
     class Config:
-        allow_population_by_field_name = True
-        schema_extra = {
+        validate_by_name = True
+        json_schema_extra = {
             "example":{
                 "_id": "550e8400-e29b-41d4-a716-446655440000",
                 "product_name": "Wireless Mouse",
@@ -39,7 +39,7 @@ class GetUserOrderResponseModel(BaseModel):
     orders: List[OrderResponseModel] = Field(..., description="User order details")
 
     class Config:
-        schema_extra = {
+        json_schema_extra = {
             "example":{
                 "user_id": "123e4567-e89b-12d3-a456-426614174000",
                 "name": "John Doe",
