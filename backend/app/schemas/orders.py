@@ -14,6 +14,7 @@ class CreateOrderModel(BaseModel):
     )
     shipping_addr: str = Field(..., min_length=5, description="Full shipping address where the order should be delivered")
 
+
 class OrderResponseModel(BaseModel):
     order_id: str = Field(..., alias="_id", description="Unique identifier for the order")
     name: str = Field(..., description="Name of the product")
@@ -23,13 +24,14 @@ class OrderResponseModel(BaseModel):
     class Config:
         validate_by_name = True
         json_schema_extra = {
-            "example":{
+            "example": {
                 "_id": "550e8400-e29b-41d4-a716-446655440000",
                 "product_name": "Wireless Mouse",
                 "quantity": 2,
-                "total_price": 1499.00
+                "total_price": 1499.00,
             }
         }
+
 
 class GetUserOrderResponseModel(BaseModel):
     user_id: str = Field(..., alias="_id", description="User id of the product")
@@ -40,7 +42,7 @@ class GetUserOrderResponseModel(BaseModel):
 
     class Config:
         json_schema_extra = {
-            "example":{
+            "example": {
                 "user_id": "123e4567-e89b-12d3-a456-426614174000",
                 "name": "John Doe",
                 "shipping_address": "123, Park Street, Kolkata",
@@ -50,14 +52,14 @@ class GetUserOrderResponseModel(BaseModel):
                         "_id": "550e8400-e29b-41d4-a716-446655440000",
                         "product_name": "Wireless Mouse",
                         "quantity": 2,
-                        "total_price": 1499.00
+                        "total_price": 1499.00,
                     },
                     {
                         "_id": "650e8400-e29b-41d4-a716-446655440111",
                         "product_name": "Mechanical Keyboard",
                         "quantity": 1,
-                        "total_price": 3499.00
-                    }
-                ]
+                        "total_price": 3499.00,
+                    },
+                ],
             }
         }
