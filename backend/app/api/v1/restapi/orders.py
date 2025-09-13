@@ -1,11 +1,13 @@
+from typing import List
+
 from fastapi import APIRouter, HTTPException, status, Body, Depends, Path
 from fastapi.responses import JSONResponse
 
 from app.schemas.responses import APIListResponseModel, APIResponseModel
-from app.schemas.orders import CreateOrderModel
+from app.schemas.orders import CreateOrderModel, GetUserOrderResponseModel, OrderResponseModel
 from app.core.db import collection
 from app.utils.auth_utils import auth_services
-from app.utils.utils import validate_object_id, get_current_utc_time
+from app.utils.utils import validate_object_id, get_current_utc_time, serialize_data
 from app.logger import logger
 
 router = APIRouter()
@@ -82,13 +84,54 @@ async def order_place(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=f"Unexpected error while placing order: {str(e)}"
         )
 
-@router.get("/user/{user_id}/get-orders", response_model=APIResponseModel, summary="Get order of the user")
+@router.get("/user/{user_id}/get-orders", response_model=APIListResponseModel[GetUserOrderResponseModel], summary="Get order of the user")
 async def get_user_orders(
     user_id: str = Path(..., description="User Id of the product")
 ):
     try:
-        if not user_id:
-            raise HTTPException(status_code=status.HTTP_406_NOT_ACCEPTABLE, detail=f"user id not found")
+        user_oid = validate_object_id(user_id, error_msg="Invalid user id format")
+
+        user_doc = await users_collection.find({"_id":user_oid})
+
+        if not user_doc:
+            raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"User with id not found")
+        
+        order_cursor = orders_collection.find({"user_id": user_oid})
+        orders = await order_cursor.to_list(None)
+
+        if not orders:
+            raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"No orders found for the user {user_id}")
+        
+        user_orders: List[GetUserOrderResponseModel] = []
+
+        for order in orders:
+            order_items = []
+            for product in order.get("products", []):
+                order_items.append(OrderResponseModel(
+                    order_id= str(order.get("_id")),
+                    name = product.get("name",""),
+                    qty= product.get("quantity", None),
+                    total_price= product.get("price", None)
+                ))
+
+                user_orders.append(GetUserOrderResponseModel(
+                    user_id = str(user_doc.get("_id")),
+                    name= user_doc.get("full_name", ""),
+                    shipping_address= order.get("shipping_address","")x,
+                    status= order.get("status"),
+                    orders=order_items
+                ))
+
+        serialied_orders = serialize_data(user_orders)
+
+        return JSONResponse(
+            status_code=status.HTTP_200_OK,
+            content={
+                "message":f"Found {len(user_orders)} orders for user {user_doc.get("full_name")}",
+                "status": True,
+                "data":serialied_orders
+            }
+        )
     
     except HTTPException as http_err:
         logger.error(f"Error while fetching order {http_err.detail}")
