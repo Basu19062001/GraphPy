@@ -1,4 +1,4 @@
-from fastapi import APIRouter, HTTPException, status, Body, Depends
+from fastapi import APIRouter, HTTPException, status, Body, Depends, Path
 from fastapi.responses import JSONResponse
 
 from app.schemas.responses import APIListResponseModel, APIResponseModel
@@ -81,3 +81,19 @@ async def order_place(
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=f"Unexpected error while placing order: {str(e)}"
         )
+
+@router.get("/user/{user_id}/get-orders", response_model=APIResponseModel, summary="Get order of the user")
+async def get_user_orders(
+    user_id: str = Path(..., description="User Id of the product")
+):
+    try:
+        if not user_id:
+            raise HTTPException(status_code=status.HTTP_406_NOT_ACCEPTABLE, detail=f"user id not found")
+    
+    except HTTPException as http_err:
+        logger.error(f"Error while fetching order {http_err.detail}")
+        raise http_err
+    
+    except Exception as e:
+        logger.error(f"Unexpected error occrrued while fetching order for the user: {str(e)}")
+        raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=f"Internal server error {str(e)}")
