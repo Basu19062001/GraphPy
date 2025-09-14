@@ -1,5 +1,5 @@
 from datetime import datetime, timezone
-from typing import Dict, Any, Optional
+from typing import Dict, Any, Optional, Union, List
 
 from fastapi import HTTPException, status
 from bson.objectid import ObjectId
@@ -29,12 +29,14 @@ def validate_object_id(id: str, error_msg: Optional[str] = "") -> ObjectId:
         )
 
 
-def serialize_data(data: Dict[str, Any]) -> Dict[str, Any]:
+def serialize_data(data: Union[Dict[str, Any], List[Any]]) -> Union[Dict[str, Any], List[Any]]:
     if not data:
         return data
 
-    serialize_doc = dict()
+    if isinstance(data, list):
+        return [serialize_data(item) if isinstance(item, (dict, list)) else item for item in data]
 
+    serialize_doc = {}
     for key, value in data.items():
         if isinstance(value, ObjectId):
             serialize_doc[key] = str(value)
@@ -46,3 +48,4 @@ def serialize_data(data: Dict[str, Any]) -> Dict[str, Any]:
             serialize_doc[key] = value
 
     return serialize_doc
+

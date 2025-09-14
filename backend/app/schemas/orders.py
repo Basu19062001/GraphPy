@@ -34,7 +34,7 @@ class OrderResponseModel(BaseModel):
 
 
 class GetUserOrderResponseModel(BaseModel):
-    user_id: str = Field(..., alias="_id", description="User id of the product")
+    user_id: str = Field(..., description="User id of the product")
     name: str = Field(..., description="Name of the user")
     shipping_address: str = Field(..., description="Shipping address of the user")
     status: str = Field(..., description="Status of the user")
