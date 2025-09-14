@@ -94,13 +94,13 @@ async def get_user_orders(user_id: str = Path(..., description="User Id of the p
     try:
         user_oid = validate_object_id(user_id, error_msg="Invalid user id format")
 
-        user_doc = await users_collection.find({"_id": user_oid})
+        user_doc = await users_collection.find_one({"_id": user_oid})
 
         if not user_doc:
             raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"User with id not found")
 
         order_cursor = orders_collection.find({"user_id": user_oid})
-        orders = await order_cursor.to_list(None)
+        orders = await order_cursor.to_list(length=None)
 
         if not orders:
             raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"No orders found for the user {user_id}")
@@ -129,7 +129,7 @@ async def get_user_orders(user_id: str = Path(..., description="User Id of the p
                     )
                 )
 
-        serialied_orders = serialize_data(user_orders)
+        serialied_orders = serialize_data([order.model_dump() for order in user_orders])    
 
         return JSONResponse(
             status_code=status.HTTP_200_OK,
