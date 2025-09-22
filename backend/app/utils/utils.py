@@ -48,4 +48,3 @@ def serialize_data(data: Union[Dict[str, Any], List[Any]]) -> Union[Dict[str, An
             serialize_doc[key] = value
 
     return serialize_doc
-

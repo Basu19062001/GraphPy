@@ -37,8 +37,8 @@ async def add_product(product_payload: CreateProductModel = Body(..., descriptio
                 raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Failed to update product stock")
 
         inserted_result = await products_collection.insert_one(product_data)
-        product_data["_id"] =  str(inserted_result.inserted_id)
-        
+        product_data["_id"] = str(inserted_result.inserted_id)
+
         return JSONResponse(
             status_code=status.HTTP_201_CREATED,
             content={
