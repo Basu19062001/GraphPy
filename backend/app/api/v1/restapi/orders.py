@@ -129,7 +129,7 @@ async def get_user_orders(user_id: str = Path(..., description="User Id of the p
                     )
                 )
 
-        serialied_orders = serialize_data([order.model_dump() for order in user_orders])    
+        serialied_orders = serialize_data([order.model_dump() for order in user_orders])
 
         return JSONResponse(
             status_code=status.HTTP_200_OK,
