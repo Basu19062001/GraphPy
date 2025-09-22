@@ -9,7 +9,7 @@ from pydantic import Field
 class Order:
     id: str = Field(..., description="Unique identifier for the order")
     name: str = Field(..., description="Name of the product")
-    qty: int = Field(..., description="Quantity of the product ordered", ge=1, example=2)
+    qty: int = Field(..., description="Quantity of the product ordered", ge=1)
     total_price: float = Field(..., description="Total price of this order", ge=0)
 
 @strawberry.type
