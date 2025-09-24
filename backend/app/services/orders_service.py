@@ -18,7 +18,7 @@ class OrderService:
         if not user_doc:
             raise ValueError("User not found")
 
-        order_products = []
+        order_products = list()
         for item in order_payload.products:
 
             product_oid = validate_object_id(item.product_id, error_msg="Invalid Product Id Format")
@@ -58,15 +58,15 @@ class OrderService:
         user_oid = validate_object_id(user_id, error_msg="Invalid user id format")
         user_doc = await users_collection.find_one({"_id": user_oid})
         if not user_doc:
-            return []
+            return list()
 
         orders_cursor = orders_collection.find({"user_id": user_oid})
         orders = await orders_cursor.to_list(length=None)
 
-        user_orders = []
+        user_orders = list()
         for order in orders:
-            items = []
-            for p in order.get("products", []):
+            items = list()
+            for p in order.get("products", list()):
                 items.append(
                     OrderResponseModel(
                         order_id=str(order.get("_id")),
