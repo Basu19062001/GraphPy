@@ -1,4 +1,3 @@
-import time
 from typing import List
 
 from fastapi import HTTPException, status
@@ -11,12 +10,13 @@ orders_collection = collection("orders")
 users_collection = collection("users")
 products_collection = collection("products")
 
+
 class OrderService:
 
     @classmethod
     async def place_order(cls, user_id: str, order_payload: CreateOrderModel):
         user_oid = validate_object_id(user_id, error_msg="Invalid object id")
-        
+
         user_doc = await users_collection.find_one({"_id": user_oid})
         if not user_doc:
             raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
@@ -25,13 +25,17 @@ class OrderService:
         for item in order_payload.products:
 
             product_oid = validate_object_id(item.product_id, error_msg="Invalid Product Id Format")
-            
+
             product = await products_collection.find_one({"_id": product_oid})
             if not product:
-                raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"Product with id {item.product_id} not found") 
-            
+                raise HTTPException(
+                    status_code=status.HTTP_404_NOT_FOUND, detail=f"Product with id {item.product_id} not found"
+                )
+
             if product.get("qty", 0) < item.qty:
-                raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=f"Insufficient stock for product {product.get('name')}")
+                raise HTTPException(
+                    status_code=status.HTTP_400_BAD_REQUEST, detail=f"Insufficient stock for product {product.get('name')}"
+                )
 
             order_products.append(
                 {
@@ -59,10 +63,9 @@ class OrderService:
 
         return order_id
 
-
     async def get_user_orders(cls, user_id: str) -> List[GetUserOrderResponseModel]:
         user_oid = validate_object_id(user_id, error_msg="Invalid user id format")
-        
+
         user_doc = await users_collection.find_one({"_id": user_oid})
         if not user_doc:
             return HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
@@ -91,5 +94,5 @@ class OrderService:
                     orders=items,
                 )
             )
-        
+
         return user_orders
