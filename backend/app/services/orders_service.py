@@ -13,7 +13,6 @@ class OrderService:
 
     @classmethod
     async def place_order(cls, user_id: str, order_payload: CreateOrderModel):
-        start = time.time()
         user_oid = validate_object_id(user_id, error_msg="Invalid object id")
         user_doc = await users_collection.find_one({"_id": user_oid})
         if not user_doc:
@@ -52,12 +51,10 @@ class OrderService:
         for item in order_payload.products:
             await products_collection.update_one({"_id": validate_object_id(item.product_id)}, {"$inc": {"qty": -item.qty}})
 
-        elapsed = time.time() - start   
         return order_id
 
 
     async def get_user_orders(cls, user_id: str) -> List[GetUserOrderResponseModel]:
-        start = time.time()
         user_oid = validate_object_id(user_id, error_msg="Invalid user id format")
         user_doc = await users_collection.find_one({"_id": user_oid})
         if not user_doc:
@@ -87,5 +84,5 @@ class OrderService:
                     orders=items,
                 )
             )
-        elapsed = time.time() - start
+        
         return user_orders
