@@ -1,6 +1,8 @@
 import time
 from typing import List
 
+from fastapi import HTTPException, status
+
 from app.core.db import collection
 from app.schemas.orders import CreateOrderModel, GetUserOrderResponseModel, OrderResponseModel
 from app.utils.utils import validate_object_id, get_current_utc_time
@@ -14,19 +16,23 @@ class OrderService:
     @classmethod
     async def place_order(cls, user_id: str, order_payload: CreateOrderModel):
         user_oid = validate_object_id(user_id, error_msg="Invalid object id")
+        
         user_doc = await users_collection.find_one({"_id": user_oid})
         if not user_doc:
-            raise ValueError("User not found")
+            raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
 
         order_products = list()
         for item in order_payload.products:
 
             product_oid = validate_object_id(item.product_id, error_msg="Invalid Product Id Format")
+            
             product = await products_collection.find_one({"_id": product_oid})
             if not product:
-                raise ValueError(f"Product {item.product_id} not found")
+                raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"Product with id {item.product_id} not found") 
+            
             if product.get("qty", 0) < item.qty:
-                raise ValueError(f"Insufficient stock for product {product.get('name')}")
+                raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=f"Insufficient stock for product {product.get('name')}")
+
             order_products.append(
                 {
                     "product_id": str(product["_id"]),
@@ -56,9 +62,10 @@ class OrderService:
 
     async def get_user_orders(cls, user_id: str) -> List[GetUserOrderResponseModel]:
         user_oid = validate_object_id(user_id, error_msg="Invalid user id format")
+        
         user_doc = await users_collection.find_one({"_id": user_oid})
         if not user_doc:
-            return list()
+            return HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
 
         orders_cursor = orders_collection.find({"user_id": user_oid})
         orders = await orders_cursor.to_list(length=None)
